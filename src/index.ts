@@ -1,7 +1,17 @@
 import { v4 as uuidV4 } from 'uuid';
-import { performanceEntryTypeHandlerMap, SupportedPerformanceEntryType } from './performance-api';
+import {
+  performanceEntryTypeHandlerMap,
+  SupportedPerformanceEntryType,
+} from './performance-api';
 import { EventType, RecordedEvent } from './types';
-import { DomInteractionEvent, KeydownEvent, MouseClickEvent, MouseEnterEvent, TrackElement, trackElementHandlerMap } from './user-interactions';
+import {
+  DomInteractionEvent,
+  KeydownEvent,
+  MouseClickEvent,
+  MouseEnterEvent,
+  TrackElement,
+  trackElementHandlerMap,
+} from './user-interactions';
 import { LocalDataLakeManager } from './store/local-storage';
 
 export type TrackInteractionOptions = {
@@ -106,4 +116,3 @@ export namespace Shadow {
     }
   }
 }
-

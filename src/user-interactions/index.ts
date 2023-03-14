@@ -135,7 +135,10 @@ class SelectHandler implements TrackElementHandler {
   };
 }
 
-export const trackElementHandlerMap = new Map<TrackElement, TrackElementHandler>([
+export const trackElementHandlerMap = new Map<
+  TrackElement,
+  TrackElementHandler
+>([
   [TrackElement.BUTTON, new ButtonHandler()],
   [TrackElement.DIV, new DivHandler()],
   [TrackElement.ANCHOR, new AnchorHandler()],
