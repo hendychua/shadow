@@ -12,6 +12,7 @@
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
     "skipLibCheck": true,
-    "outDir": "./dist"
+    "outDir": "./dist",
+    "declaration": true,
   }
 }
