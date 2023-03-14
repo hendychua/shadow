@@ -1,4 +1,7 @@
 {
+  "name": "shadow-analytics",
+  "version": "0.0.1-alpha",
+  "license": "MIT",
   "dependencies": {
     "typescript": "^4.9.5",
     "uuid": "^9.0.0"
