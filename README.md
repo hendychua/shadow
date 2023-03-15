@@ -1,5 +1,7 @@
 # Shadow
 
+[![npm version](https://badge.fury.io/js/shadow-analytics.svg)](https://badge.fury.io/js/shadow-analytics)
+
 **Important: This is not production ready yet.**
 
 ## What is Shadow?
